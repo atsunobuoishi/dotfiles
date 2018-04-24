@@ -1,0 +1,38 @@
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+depends = ['iceberg.vim']
+hook_add = '''
+    let g:lightline = {
+      \ 'colorscheme': 'iceberg'
+      \ }
+'''
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+hook_add = '''
+    let g:gitgutter_map_keys = 0
+    nmap [g <Plug>GitGutterPrevHunk
+    nmap ]g <Plug>GitGutterNextHunk
+'''
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+on_cmd = ['IndentLinesToggle']
+hook_add = '''
+    let g:loaded_indentLine = 1
+    let g:indentLine_char = '┆'
+'''
+
+
+
+
