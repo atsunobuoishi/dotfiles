@@ -58,12 +58,5 @@ hook_add = '''
     nnoremap <silent> [figitive]l :<C-u>Glog<CR>
 '''
 
-[[plugins]]
-repo = 'Yggdroot/indentLine'
-on_cmd = ['IndentLinesToggle']
-hook_add = '''
-    let g:loaded_indentLine = 1
-    let g:indentLine_char = '┆'
-'''
 
 
