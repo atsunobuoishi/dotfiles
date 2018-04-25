@@ -156,13 +156,3 @@ build = 'make'
 
 
 
-[[plugins]]
-repo = 'Yggdroot/indentLine'
-on_cmd = ['IndentLinesToggle']
-hook_add = '''
-    let g:loaded_indentLine = 1
-    let g:indentLine_char = '┆'
-'''
-
-
-
