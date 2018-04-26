@@ -33,6 +33,8 @@ hook_add = '''
     nnoremap <silent> [denite]<C-r> :<C-u>Denite file_mru -highlight-mode-insert=Search<CR>
     " Help tag
     nnoremap <silent> [denite]<C-h> :<C-u>Denite help -highlight-mode-insert=Search<CR>
+    " Grep
+    nnoremap <silent> [denite]<C-g> :<C-u>Denite grep -highlight-mode-insert=Search<CR>
 '''
 
 
