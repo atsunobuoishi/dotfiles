@@ -44,4 +44,7 @@ set cursorline
 
 set clipboard+=unnamedplus
 
-
+inoremap <C-p> <Up>
+inoremap <C-n> <Down>
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
